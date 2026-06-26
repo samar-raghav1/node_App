@@ -5,7 +5,7 @@ const app= express();
 const port = 5000;
 
 app.get("/",(req,res)=>{
-    res.send("This is my demo github action workflow");
+    res.send("This is my demo github action workflow v2");
 }
 )
 
