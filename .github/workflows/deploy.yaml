@@ -21,7 +21,7 @@ jobs:
           username: ubuntu
           key: ${{secrets.SSH_KEY}}
           script: |
-            cd C:\Users\HP\Desktop\node_App> 
+            cd C:\Users\HP\Desktop\node_App
             git pull 
             docker compose up -d --build
 
